@@ -1,0 +1,21 @@
+package com.cy.zfb.config;
+
+/**
+ * 支付宝支付基础配置类
+ *
+ * @author: chengyang
+ * @Date: 2020-07-03 11:07:23
+ */
+public class AlipayConfig {
+
+    public static String APPID = "2016102100729443";
+    public static String RSA_PRIVATE_KEY = "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCTaThDRZjrN00UZX52uUwm7ZpF/HCtiePjD8+qdspdD3qPZfGufT9aeFn6l4uHw+bgw/YGn/Jl57p8Y4sjlDLN3tTkZCNnAPrmbk0Bb7bTLqafzx7KjF0JIzhFC+Vl8RIhFqc02cjXaVvlCjBch83yLwT+HiykqpHX66Pyiabtrat4wRSlvY8t5DPMqQ/u2ihOiCG6hqlWZ1pbhLDwzhBgupgRIjRm/a+PK+dgLtUcOaKJdlrhstGFvwPWHYICJqVZWdghZ+VC8pg/+OI28sV9QA8rM8zfaga4qLRO/hmk7N7cGi48SKB8i3dq2Dy5pXI3LzsapB34BkFOlqSFL3v5AgMBAAECggEASaQy+0h1kGxcEWhyuRTwujHQ9E2cbNWKBxELCXm2tq7Y53JiPm1LjQK60LmMdxKi8H51FfIpwkb1ntaL2AZdKwO7Dy4HkZmnvh40UhdhGjcf/o4WL9HXWI1DuxqqSzcXe3g5p+l0sEhuJAnnBxLBC8/5ionAe7LKkTei+7NQtUNZgJxBn0vIWP3TtqT54gC6Pq+aW9OBdJETq2+fcadSVQJvKX5zOY51tXBscxTa1EukcLnYJmfu1rvkI6j5cBBGhaMKNiIfI4x6khQhM7dibRBjXVNeMnZXmzniRHJ2xy8akf6116TTn6puXgVTzU4g5pBkkGTbd5bYkRjjTwAtUQKBgQD4U4OVA0oVh9AUus+iECpreVLBUqwx/zcjBuL+8sw+O4og8u12c6iTnD5SKp7NlbAFzgH8oCfCNviJnMebfo3Yr0p/4UBMw6r16InIbVFxhxOwlFQPcIPoUc2X6c9TDbcKrE4BaKBgZu/WOr4/j46NCB9v3cW6Ufz0+jSSScvB5wKBgQCX91/ytISeHIGtoBcqUfO7NgbcJA/od8pIj1/12kx6gVsYGZCAleVM9dn1I4l6RVZoDzIeAv01ydvxLEDPtIgT1c3KNrzem0aF3Ba35IYJtQh94krFzRGjyOWTsp5AhpZtzzR7+ELrYhhAYgWFCowiaxJViYxR+UbhfSAS+8bXHwKBgQDadO3Oy4QDCOV/NxCuK7aFscehls8xdKnWwJo1Wvde0BYmAk/w4rKsmMkik6f8h/DASojo6yPO8XkX5rqbCmxS8XKCqXBdl8zwZE/B6Jm7W+9waizBIGSKnlxVhjUDhY8/bnF5P8fGxwe62RbA59OqMjklul3WGYaFJQ/WmeEMhQKBgDcutwK1FmsrwtM/jOnrNGxI5BjQZ45s4WGT3q6yBI9/pYqMzfJDfC6EIA9qRiPGRegnjHVldHkxwdJD1Y0W60r4mm/RjKfxDpzRHNbN/vZLbLf5klldbAhjjSoi9GBN/xYE5fQWZIaA6nmGnqZ+/AALjW7OMcwajuiWvSznjH7VAoGBAIkv0rFsi3eUlghKRy82jaTkUcjRwIlI7Qnai2uBVV9+gxBJs95mzkcL2+uIxqrOt7/gYHqkWqLPhS4iXZ17+8nk8QCyKT5pZ1Mywwp6NN2WGlOewIQDrPR0mb2QPPqQ7lsqqmSWiX9WgkD7BVQ/cxrc70EKPgVyz64Zk9Arq0yH";
+    public static String notify_url = "https://www.baidu.com";
+    public static String return_url = "https://www.baidu.com";
+    public static String URL = "https://openapi.alipaydev.com/gateway.do";
+    public static String CHARSET = "UTF8";
+    public static String FORMAT = "json";
+    public static String ALIPAY_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk2k4Q0WY6zdNFGV+drlMJu2aRfxwrYnj4w/PqnbKXQ96j2Xxrn0/WnhZ+peLh8Pm4MP2Bp/yZee6fGOLI5Qyzd7U5GQjZwD65m5NAW+20y6mn88eyoxdCSM4RQvlZfESIRanNNnI12lb5QowXIfN8i8E/h4spKqR1+uj8omm7a2reMEUpb2PLeQzzKkP7tooToghuoapVmdaW4Sw8M4QYLqYESI0Zv2vjyvnYC7VHDmiiXZa4bLRhb8D1h2CAialWVnYIWflQvKYP/jiNvLFfUAPKzPM32oGuKi0Tv4ZpOze3BouPEigfIt3atg8uaVyNy87GqQd+AZBTpakhS97+QIDAQAB";
+    public static String SIGNTYPE = "RSA2";
+}
+

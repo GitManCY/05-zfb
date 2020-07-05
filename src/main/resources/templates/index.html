@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Pay</title>
+</head>
+<body>
+<form th:action="@{/pay}" method="post">
+    商品单号：<input type="text" name="out_trade_no"><br>
+    商品名称：<input type="text" name="subject"><br>
+    付款金额：<input type="text" name="total_amount"><br>
+    商品描述：<input type="text" name="body"><br>
+    支付超时时间：<input type="text" name="timeout_express"><br>
+    销售产品码：<input type="text" name="produce_code"><br>
+    <input type="submit" value="提交"><br>
+</form>
+</body>
+</html>
